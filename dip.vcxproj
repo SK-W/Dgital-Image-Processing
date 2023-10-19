@@ -136,11 +136,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="includes\dip.h" />
+    <ClInclude Include="includes\my_process.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="sources\dip.cpp" />
+    <ClCompile Include="sources\my_process.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LICENSE" />
