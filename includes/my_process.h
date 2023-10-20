@@ -12,7 +12,10 @@ public:
 	// 直方图均衡化
 	void equalize_hist(cv::Mat src, cv::Mat &dst);
 	void sample_equalize_hist();
+	void sample_equalize_hist_match();
 
+	// 直方图规定化 src1->src2
+	void equalize_hist_match(cv::Mat src1, cv::Mat src2, cv::Mat& dst);
 
 private:
 
